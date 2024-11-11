@@ -1,0 +1,30 @@
+* {
+    color: balck;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+*:hover { 
+    outline:1px  blue dashed;
+  }
+
+body {
+    background-color: coral;
+}
+
+div {
+    padding: 10px;
+}
+
+button {
+    background-color: cornflowerblue;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}

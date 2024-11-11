@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" 
+</head>
+
+<body>
+
+    <div class="header" style="margin: auto;">
+        <h2>-- origo uträknaren --</h2>
+        <p>Låt mig räkna ut din origo koordinat :]</p>
+    </div>
+
+    <div>
+        <p>Låt mig hämta din position:</p>
+        <button  onclick="getLocation()">Try It</button>
+    </div>
+
+    <div>
+        <p>Eller ange den:</p>
+        <form action="origo.js">
+            <label for="lat">Latitude:</label>
+            <input type="number" id="lat" name="Latitude">
+            <br>
+            <label for="log">Longitude:</label>
+            <input type="number" id="log" name="Longitude">
+            <br>
+            <input type="submit" value="Hello">
+        </form>
+
+    </div>
+
+    
+    <div>
+        <p id="demo"></p>
+
+        <button onclick="printCoordinates()">Convert</button>
+        <p id="coords"></p>
+    </div>
+
+    
+
+    <script src="origo.js"></script>
+</body>
+
+
+
+</html>
